@@ -14,9 +14,11 @@
   <body>
     <div class="container">
       <br />
-      <h1 class="mb-4">Create new article</h1>
-      <form action="/articles" method="post"></form>
-      <%- include('form_field') %>
+      <h1 class="mb-4">Create new Insight</h1>
+      <form action="/articles/new" method="POST">
+
+        <%- include('form_field') %>
+      </form>
     </div>
   </body>
 </html>

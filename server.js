@@ -20,10 +20,15 @@ app.get("/", (req, res) => {
       createdAt: new Date(),
       description: "Testing Description",
     },
-  ];
+    {
+      title: "Test Article 1",
+      createdAt: new Date(),
+      description: "Testing Description",
+    },]
 
-  res.render("articles/index", { articles: articles });
-});
-app.use("/articles", articleRouter);
+  res.render("articles/index", { articles: articles }
+  )
+  app.use("/articles", articleRouter);
+})
 
 app.listen(3000);
