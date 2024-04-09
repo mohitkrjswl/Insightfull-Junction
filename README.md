@@ -15,9 +15,7 @@ MongoDB Database: Utilizes MongoDB to efficiently store and manage blog post dat
 User-Friendly Interface: Simple and intuitive interface for an enjoyable blogging experience.
 
 
-```bash
 
-```
 
 ## Requirements
 
